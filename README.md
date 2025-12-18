@@ -86,11 +86,13 @@ The robust methodology was evaluated on a test set of **34 subjects**. The Multi
 
 ### 3.3 Visual Examples
 
-**Excellent Case (Accuracy: 100%)**
+**Excellent Case (Accuracy: ~100%)**
 *Subject aligned perfectly. Predicted labels (right) match Ground Truth (left).*
 
 **Regular Case (Accuracy: ~89%)**
 *Note the sparse points (grey) indicating missing data, which complicates the Hungarian (or Kabsch) matching.*
+
+Example images at vis_label_matching folder.
 
 ---
 
