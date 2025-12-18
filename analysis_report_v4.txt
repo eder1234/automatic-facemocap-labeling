@@ -1,0 +1,132 @@
+====================================================================================================
+FACE MOCAP LABEL MATCHING – STRUCTURAL FAILURE ANALYSIS REPORT
+====================================================================================================
+
+Accuracy class definitions:
+  EXCELLENT : acc > 95%
+  REGULAR   : 95% ≥ acc ≥ 80%
+  BAD       : 80% > acc ≥ 10%
+  TERRIBLE  : acc < 10%
+
+====================================================================================================
+EXCELLENT CASES (n=26)
+====================================================================================================
+Accuracy: mean=98.60% | median=99.00% | min=95.65% | max=100.00%
+Matched points: mean=100.3/105 | min=92 | max=105
+
+Geometric statistics (canonical space):
+  Mean XYZ: [-8.98224916e-18  1.87946114e-17 -5.07262943e-16]
+  Std  XYZ: [0.6370726  0.27073482 0.70710599]
+  Mean norm: 0.9438 | Std norm: 0.2973
+
+Spatial consistency diagnostics:
+  Dist to TRUE centroid: mean=1116.6093 | std=41.2181
+  Dist to PRED centroid: mean=1116.5949 | std=41.2341
+
+Permutation structure diagnostics:
+  Fixed points: mean=7.6 | min=0 | max=14
+  Largest cycle size: mean=33.5 | min=13 | max=70
+  Cycle-level accuracy: mean=98.64% | median=100.00%
+
+Missing data diagnostics:
+  Missing points per cloud: mean=4.7 | min=0 | max=13
+
+Subject-level occurrence:
+  20230412       : 5 samples
+  2023061401     : 4 samples
+  M1             : 2 samples
+  M2             : 2 samples
+  RS01           : 1 samples
+  20240329       : 1 samples
+  CAD01          : 1 samples
+  PS01           : 1 samples
+  AA01           : 1 samples
+  NL01           : 1 samples
+  M4             : 1 samples
+  SB01           : 1 samples
+  2023061901     : 1 samples
+  ABD            : 1 samples
+  M5             : 1 samples
+  SD01           : 1 samples
+  M4.csv         : 1 samples
+
+Detailed case listing:
+  SB01_M4.csv                                        | acc= 95.65% | matched= 92/105
+  2023061901_SMJ_M7.csv                              | acc= 97.03% | matched=101/105
+  PS01_M5.csv                                        | acc= 97.06% | matched=102/105
+  ABD_M2.csv                                         | acc= 97.89% | matched= 95/105
+  20230412_JS_M7.csv                                 | acc= 97.96% | matched= 98/105
+  20240329_LM_M5.csv                                 | acc= 97.98% | matched= 99/105
+  2023061401_SMA_M5.csv                              | acc= 98.00% | matched=100/105
+  2023061401_SMA_M3.csv                              | acc= 98.02% | matched=101/105
+  2023061401_SMA_M6.csv                              | acc= 98.02% | matched=101/105
+  20230412_CH_M7.csv                                 | acc= 98.06% | matched=103/105
+  20230412_JS_M6.csv                                 | acc= 98.98% | matched= 98/105
+  20230412_JS_M6.csv                                 | acc= 98.98% | matched= 98/105
+  M1_04.csv                                          | acc= 99.00% | matched=100/105
+  RS01_M4.csv                                        | acc= 99.00% | matched=100/105
+  M1_05.csv                                          | acc= 99.00% | matched=100/105
+  M2_01.csv                                          | acc= 99.00% | matched=100/105
+  M5_04.csv                                          | acc= 99.00% | matched=100/105
+  M4_04.csv                                          | acc= 99.01% | matched=101/105
+  M4.csv                                             | acc= 99.01% | matched=101/105
+  CAD01_M4.csv                                       | acc= 99.02% | matched=102/105
+  2023061401_SMA_M7.csv                              | acc= 99.02% | matched=102/105
+  20230412_CH_M3.csv                                 | acc= 99.03% | matched=103/105
+  AA01_M2.csv                                        | acc=100.00% | matched=105/105
+  NL01_M5.csv                                        | acc=100.00% | matched=103/105
+  M2_03.csv                                          | acc=100.00% | matched=100/105
+  SD01_M1.csv                                        | acc=100.00% | matched=103/105
+
+====================================================================================================
+REGULAR CASES (n=8)
+====================================================================================================
+Accuracy: mean=89.70% | median=89.07% | min=87.50% | max=92.47%
+Matched points: mean=93.8/105 | min=88 | max=99
+
+Geometric statistics (canonical space):
+  Mean XYZ: [-2.39623136e-17 -1.13242749e-17 -1.54498636e-15]
+  Std  XYZ: [0.65237692 0.28045049 0.72576859]
+  Mean norm: 0.9653 | Std norm: 0.3148
+
+Spatial consistency diagnostics:
+  Dist to TRUE centroid: mean=1116.2752 | std=41.4347
+  Dist to PRED centroid: mean=1116.2151 | std=41.3259
+
+Permutation structure diagnostics:
+  Fixed points: mean=14.9 | min=10 | max=19
+  Largest cycle size: mean=15.8 | min=11 | max=19
+  Cycle-level accuracy: mean=89.45% | median=100.00%
+
+Missing data diagnostics:
+  Missing points per cloud: mean=11.2 | min=6 | max=17
+
+Subject-level occurrence:
+  20240320       : 2 samples
+  CN03           : 1 samples
+  SB01           : 1 samples
+  QS             : 1 samples
+  CG02           : 1 samples
+  20240426       : 1 samples
+  CG031          : 1 samples
+
+Detailed case listing:
+  SB01_M5.csv                                        | acc= 87.50% | matched= 88/105
+  CG031_M5.csv                                       | acc= 87.76% | matched= 98/105
+  20240320_JE_M6.csv                                 | acc= 88.17% | matched= 93/105
+  20240320_JE_M3.csv                                 | acc= 89.01% | matched= 91/105
+  20240426_BC_M8.csv                                 | acc= 89.13% | matched= 92/105
+  CG02_M2.csv                                        | acc= 91.67% | matched= 96/105
+  CN03_M1.csv                                        | acc= 91.92% | matched= 99/105
+  QS_M2.csv                                          | acc= 92.47% | matched= 93/105
+
+====================================================================================================
+BAD CASES (n=0)
+====================================================================================================
+No samples in this category.
+
+====================================================================================================
+TERRIBLE CASES (n=0)
+====================================================================================================
+No samples in this category.
+
