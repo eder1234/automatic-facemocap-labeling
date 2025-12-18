@@ -92,7 +92,7 @@ The robust methodology was evaluated on a test set of **34 subjects**. The Multi
 **Regular Case (Accuracy: ~89%)**
 *Note the sparse points (grey) indicating missing data, which complicates the Hungarian (or Kabsch) matching.*
 
-Example images at vis_label_matching folder.
+Example images at __vis_label_matching__ folder.
 
 ---
 
